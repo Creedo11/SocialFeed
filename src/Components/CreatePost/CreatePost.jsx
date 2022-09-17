@@ -12,18 +12,20 @@ const CreatePost = (props) => {
             name: name,
             post: post
         };
-        console.log(newEntry)
+        props.addNewPostProp(newEntry)
     }
 
     return ( 
-        <form onSubmite={handleSubmit} className="form-grid">
+        <form onSubmit={handleSubmit} className="form-grid">
             <div className="form-group">
-                <span>Name<input type="text" className="form-control" style={{'margin-left': "2em"}}  value={name} onChange={(event) => setName(event.target.value)}/></span>
+                <span><label>Name</label></span>
+                <input type="text" value={name} className="form-control" style={{'margin-left': "2em"}} onChange={(event) => setName(event.target.value)}/>
             </div>
             <br></br>
             <br></br>
             <div className="form-group">
-                <span>Post<input type="text" className="form-control" style={{'margin-left': "2.7em"}}  value={post} onChange={(event) => setPost(event.target.value)}/></span>
+                <span><label>Post</label></span>
+                <input type="text" value={post} className="form-control" style={{'margin-left': "2.7em"}} onChange={(event) => setPost(event.target.value)}/>
             </div>
             <button tpye="submit" className="create-button" style={{'margin-top': "1em"}}>Create</button>
         </form>
