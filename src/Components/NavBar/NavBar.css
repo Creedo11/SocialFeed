@@ -1,0 +1,11 @@
+.nav-bar {
+    display: grid;
+    background-color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+   
+}
+
+.second-text {
+    color:gray;
+}
