@@ -1,5 +1,18 @@
 body {
     background-color:rgb(179, 208, 208);
+    width: 100%;
 }
 
+.feed-container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.border-box {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 1em;
+    padding: 1em;
+}
 
