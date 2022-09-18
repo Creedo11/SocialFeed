@@ -9,10 +9,18 @@ body {
 }
 
 .border-box {
+    background-color: white;
+    color: dark gray;
     border: 1px;
     border-style: solid;
-    border-color: black;
+    border-color: gray;
     margin: 1em;
     padding: 1em;
+    box-shadow: 10px 10px 15px 0px rgba(148,117,117,0.75);
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(148,117,117,0.75);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(148,117,117,0.75);
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
 }
 
