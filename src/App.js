@@ -9,7 +9,7 @@ import CreatePost from "./Components/CreatePost/CreatePost";
 
 function App() {
 
-  const [entries, setEntries] = useState([{name: " ", post: " "}])
+  const [entries, setEntries] = useState([{name: "Keegan", post: "The post compoenent is really thorwing me off. If I don't hardcode the first entry, the like and dislike buttons are sitting there by themselves until I enter another post."}])
 
   function addNewPost(entry){
     
@@ -18,7 +18,7 @@ function App() {
     setEntries(tempPosts);
 
   }
-  
+
   return (
     <div>
       <NavBar />
