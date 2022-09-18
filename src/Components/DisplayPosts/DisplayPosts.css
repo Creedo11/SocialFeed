@@ -1,0 +1,24 @@
+.approval-buttons {
+    display: flex;
+    margin-left: 88%;
+    justify-content: space-between;
+}
+
+.post-divider {
+    width: 100%;
+    height: 4px;
+    color: gray;
+    background-color: gray;
+}
+
+.feed-content{
+    color:rgb(100, 94, 94);
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    margin: 0em;
+    padding: 0em;
+    overflow-wrap:break-word;
+}
+

@@ -1,0 +1,21 @@
+.form-group{
+    color:rgb(100, 94, 94);
+}
+
+.name-box{
+    width: 60%;
+}
+
+.post-box{
+    width: 60%;
+    height: 100px;
+    overflow-wrap: break-word;
+
+}
+
+.create-button{
+    border-radius: 12px;
+    border-color: darkgrey;
+    background-color: darkgrey;
+}
+
