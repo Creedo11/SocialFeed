@@ -16,6 +16,9 @@
 .create-button{
     border-radius: 12px;
     border-color: darkgrey;
-    background-color: darkgrey;
+    background-color: rgb(179, 208, 208);
+    display: flex;
+    margin-left: 88%;
+
 }
 

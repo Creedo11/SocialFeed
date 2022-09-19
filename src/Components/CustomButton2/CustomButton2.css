@@ -5,3 +5,9 @@
 .inactive2{
     background-color: white;
 }
+
+button {
+    border-radius: 12px;
+    border-color: darkgrey;
+}
+ 
