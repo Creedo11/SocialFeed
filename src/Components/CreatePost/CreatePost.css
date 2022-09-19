@@ -9,9 +9,9 @@
 .post-box{
     width: 60%;
     height: 100px;
-    overflow-wrap: break-word;
-
+    font-family: symbol;
 }
+
 
 .create-button{
     border-radius: 12px;
